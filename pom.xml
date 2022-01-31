@@ -11,6 +11,16 @@
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
+        <karate.version>1.1.0</karate.version>
     </properties>
+
+    <dependencies>
+    <dependency>
+        <groupId>com.intuit.karate</groupId>
+        <artifactId>karate-junit5</artifactId>
+        <version>${karate.version}</version>
+        <scope>test</scope>
+    </dependency>
+    </dependencies>
 
 </project>
